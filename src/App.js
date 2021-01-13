@@ -1,4 +1,4 @@
-import ndImage from './VRmockup1.png'
+import ndImage from './images/VRmockup1.png'
 function App(){
   return(
       <div>
