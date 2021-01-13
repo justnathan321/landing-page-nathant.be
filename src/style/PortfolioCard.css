@@ -1,0 +1,16 @@
+.imgBlock {
+    pointer-events: none;
+}
+
+.btnStyling {
+    background: linear-gradient(90deg, rgba(140, 198, 255, 1) 0%, rgba(255, 128, 128, 1) 100%);
+    border: none;
+    opacity: 0.8;
+    transition: 0.3s;
+
+}
+
+.btnStyling:hover {
+    color: white;
+    opacity: 1
+}
