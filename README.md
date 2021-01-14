@@ -2,6 +2,4 @@
 
 ## WORK IN PROGRESS 🚧
 
-# Components
-## LogoCards
-### Code for the cards
+
