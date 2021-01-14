@@ -1,3 +1,7 @@
-# Simple portfolio site with React & React Bootstrap
+# Simple landing-page with React & React Bootstrap
 
 ## WORK IN PROGRESS 🚧
+
+# Components
+## LogoCards
+### Code for the cards
