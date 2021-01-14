@@ -4,6 +4,7 @@ import './style/App.css'
 import {Col, Container, Row} from "react-bootstrap";
 import {PortfolioCard} from './components/PortfolioCard';
 import {JumboAboutMe} from "./components/JumboAboutMe";
+import {LogoCards} from "./components/LogoCards";
 
 function App() {
     return (
@@ -18,8 +19,8 @@ function App() {
                 <Col xs={3} className="mb-5" >
                     <PortfolioCard name="GitHub" text="You won't see much on my GitHub yet, but you never know what the future brings. In other words: Follow. Me. 😊" url="github" />
                 </Col>
-                <Col xs={3} className="mb-5" >
-                    <PortfolioCard name="GitHub" text="You won't see much on my GitHub yet, but you never know what the future brings. In other words: Follow. Me. 😊" url="github" />
+                <Col className="mb-5" >
+                    <LogoCards/>
                 </Col>
             </Row>
         </Container>
