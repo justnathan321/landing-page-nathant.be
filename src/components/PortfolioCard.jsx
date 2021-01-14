@@ -2,7 +2,8 @@ import React from "react";
 import {Badge, Button, Card} from "react-bootstrap";
 import "../style/PortfolioCard.css"
 
-export function PortfolioCard({name, image, text, url}) {
+export function PortfolioCard({name, text, url}) {
+
     return (
         <Card className="h-100 shadow bg-white rounded">
             <Card.Body className="d-flex flex-column">
@@ -14,7 +15,15 @@ export function PortfolioCard({name, image, text, url}) {
                         {text}
                     </Card.Text>
                 </div>
-                <Button onClick={url} className="mt-auto  font-weight-bold btnStyling pb-0" variant="outline-light">
+                <Button type="button"
+                        onClick={(e) => {
+                            e.preventDefault();
+                            if(url.includes("nathandesign")){
+                                window.location.href = 'https://nathandesign.be'
+                            }else if(url.includes("github")){
+                                window.location.href = 'https://github.com/justnathan321'
+                            }
+                        }} className="mt-auto  font-weight-bold btnStyling pb-0" variant="outline-light">
                     <p className="font-weight-bold">Visit</p>
                 </Button>
             </Card.Body>
