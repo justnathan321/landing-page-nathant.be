@@ -1,5 +1,5 @@
 import React from "react";
-import {Badge, Card, Carousel, Jumbotron} from "react-bootstrap";
+import {Card, Carousel} from "react-bootstrap";
 import "../style/LogoCards.css"
 
 

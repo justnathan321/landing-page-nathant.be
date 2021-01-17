@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style/App.css'
-import {Col, Container, Nav, Row, Tab} from "react-bootstrap";
+import {Col, Container, Row, Tab} from "react-bootstrap";
 import {PortfolioCard} from './components/PortfolioCard';
 import {JumboIntro} from "./components/JumboIntro";
 import {LogoCards} from "./components/LogoCards";
