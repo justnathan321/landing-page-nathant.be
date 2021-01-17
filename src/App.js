@@ -7,6 +7,7 @@ import {JumboIntro} from "./components/JumboIntro";
 import {LogoCards} from "./components/LogoCards";
 import {ExtraInfoTabs} from "./components/ExtraInfoTabs";
 
+
 function App() {
     return (
         <Container>
