@@ -1,6 +1,6 @@
 import React from "react";
 import {Card, Carousel, Col, Row} from "react-bootstrap";
-import docker from "../images/logos/java.png"
+import docker from "../images/logos/docker.png"
 import net from "../images/logos/netcore.png"
 import bash from "../images/logos/bash.png"
 import hcj from "../images/logos/htmlcssjs.png"
