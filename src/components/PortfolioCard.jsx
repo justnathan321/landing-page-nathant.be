@@ -1,10 +1,11 @@
 import React from "react";
-import {Badge, Button, Card} from "react-bootstrap";
+import {Badge, Button, Card, Col} from "react-bootstrap";
 import "../style/PortfolioCard.css"
 
 export function PortfolioCard({name, text, url}) {
 
     return (
+        <Col xs={12} lg={3} className="mb-5">
         <Card className="h-100 shadow bg-white rounded">
             <Card.Body className="d-flex flex-column">
                 <div className="justify-content-between">
@@ -28,5 +29,6 @@ export function PortfolioCard({name, text, url}) {
                 </Button>
             </Card.Body>
         </Card>
+        </Col>
     )
 }

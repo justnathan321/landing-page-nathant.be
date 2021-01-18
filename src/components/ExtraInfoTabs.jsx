@@ -3,8 +3,8 @@ import React from "react";
 
 export function ExtraInfoTabs(){
     return(
-        <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-            <Row>
+        <Tab.Container defaultActiveKey="first">
+            <Row className="shadow rounded w-100 p-5 mb-2">
                 <Col sm={3}>
                     <Nav variant="pills" className="flex-column">
                         <Nav.Item>
@@ -15,13 +15,13 @@ export function ExtraInfoTabs(){
                         </Nav.Item>
                     </Nav>
                 </Col>
-                <Col sm={9}>
+                <Col sm={9} xs={12}>
                     <Tab.Content>
                         <Tab.Pane eventKey="first">
                             <p>Hi</p>
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
-                            <p>Hi</p>
+                            <p>Hallo</p>
                         </Tab.Pane>
                     </Tab.Content>
                 </Col>
